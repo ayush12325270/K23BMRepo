@@ -332,16 +332,17 @@
 // }
 
 
-$arr3 = array(
-    array("Manoj", 7.8, "Pass"),
-    array("Aditya", 8.5, "Pass"),
-    array("Anuj", 4.9, "Fail")
+// $arr3 = array(
+//     array("Manoj", 7.8, "Pass"),
+//     array("Aditya", 8.5, "Pass"),
+//     array("Anuj", 4.9, "Fail")
 
-);
-unset($arr3[1][0]);
-unset($arr3[1][1]);
-unset($arr3[1][2]);
-print_r($arr3);
+// );
+// unset($arr3[1][0]);
+// unset($arr3[1][1]);
+// unset($arr3[1][2]);
+// print_r($arr3);
+
 
 
 
