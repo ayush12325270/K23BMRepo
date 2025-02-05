@@ -1,6 +1,6 @@
 <?php
 // $my_str="World\n";
-// echo"Hello,$my_str\n";
+// echo"Hello,$my_str\n";T
 // echo $my_str."\t";
 // echo "Hello".$my_str."\t";
 // $str='I\'ll be back';
@@ -45,17 +45,31 @@
 
 
 
-function add(int $a,int $b)
-{
-    return $a+$b;
-}
-echo "The required Sum: ",add(5,6);
-echo"\n";
-echo "The required Sum: ",add(15,16);
-echo"\n";
-echo "The required Sum: ",add(51,65);
-echo"\n";
+// function add(int $a,int $b)
+// {
+//     return $a+$b;
+// }
+// echo "The required Sum: ",add(5,6);
+// echo"\n";
+// echo "The required Sum: ",add(15,16);
+// echo"\n";
+// echo "The required Sum: ",add(51,65);
+// echo"\n";
 
+
+
+$a=10;
+$b=20;
+echo"The value of $a and $b before swapping\n";
+function swap($a,$b)
+{   
+    $temp=$a;
+    $a=$b;
+    $b=$temp;
+    echo"The value of $a and $b after swapping \n";
+    
+}
+swap($a,$b);
 
 
 
