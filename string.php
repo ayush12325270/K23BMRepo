@@ -66,7 +66,7 @@ function swap($a,$b)
     $temp=$a;
     $a=$b;
     $b=$temp;
-    echo"The value of $a and $b after swapping \n";
+    echo"The value of $a and $b after swapping ";
     
 }
 swap($a,$b);
